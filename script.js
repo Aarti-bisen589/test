@@ -16,10 +16,9 @@ gsap.from("#left img",{
 
 gsap.from("#text",{
     y: 30,
-    // scale: .2,
     opacity: 0,
     stagger: 1,
-    // rotation: 180, x: 10, ypercent: 50,
+   
       duration: 1,
       delay: 1,
       scrollTrigger: {
