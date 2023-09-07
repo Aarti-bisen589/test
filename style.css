@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    
+    /* background-color: brown; */
+
+}
+#leyar{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.268);
+    position: fixed;
+    z-index: 99;
+}
+#nav{
+    width: 100%;
+    height: 20%;
+    /* background-color: antiquewhite; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    position: fixed;
+    z-index: 99;
+    color:white;
+    
+}
+#nav h4{
+    
+    font-size: 20px;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#nav h4:hover{
+    font-size: 30px;
+}
+
+#main img{
+    width: 100%;
+    height: 100%;
+}
+#where{
+    color:white;
+    margin: 250px 400px; 
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+#where h1{
+    font-size: 56px;
+    letter-spacing: 3px;
+    
+}
+#where p{
+    margin: 10px;
+    font-size: 15px;
+}
+ #circle{
+    width: 15%;
+    height: 30%;
+  
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 80%;
+    border-radius: 200px;
+    border: 2px solid white;
+} 
+#circle:hover{
+    font-size: 10px;
+}
+#circle i{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    font-weight: 200;
+
+}
+#page1{
+    width: 100%;
+    height: 110%;
+   
+}
+#section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left img{
+    transition: all ease 0.5s;
+    width: 80%;
+    height: 50%;
+}
+#left p{
+    width: 60%;
+    padding: 10px 20px;
+}
+#left h2{
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    padding: 0 20px;
+    font-size: 40px;
+}
+#left h3{
+    font-size: 8px;
+    letter-spacing: 4px;
+    padding: 0 40px;
+    padding-top:10px ;
+    width: 40%;
+
+}
+
+#right img{
+    width: 100%;
+    height: 60%;
+    transition: all ease 0.5s;
+}
+#right p{
+    width: 80%;
+    padding: 10px 50px;
+}
+#right h2{
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    padding: 0 50px;
+    font-size: 40px;
+    
+}
+#right h3{
+    font-size: 10px;
+    letter-spacing: 4px;
+    padding: 0 50px;
+    padding-top:10px ;
+    
+
+}
+
+#txt{
+    transition: all ease 0.5s;
+
+}
+#text{
+    transition: all ease 0.5s;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+#page2 h1{
+    font-size: 80px;
+    color: cadetblue;
+    font-weight: 500;
+}
+#china{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: blue; */
+    gap: 40px;
+}
+#car1{
+    width: 30%;
+    height: 50%;
+    /* background-color: brown; */
+}
+#car2{
+    width: 30%;
+    height: 50%;
+    /* background-color:blanchedalmond; */
+}
+
+#car3{
+    width: 30%;
+    height: 50%;
+    /* background-color:aqua; */
+}
+#car1 img{
+    width: 100%;
+    height: 80%;
+    transition: all ease 0.5s;
+
+}
+#car2 img{
+    width: 100%;
+    height: 80%;
+    transition: all ease 0.5s;
+}
+#car3 img{
+    width: 100%;
+    height: 80%;
+    transition: all ease 0.5s;
+}
+#car1 h1{
+font-size: 30px;
+padding: 20px 20px;
+color: black;
+}
+#car1 p{
+    font-size: 15px;
+    padding-bottom:  30px;
+   text-align: center;
+}
+
+#text1{
+    transition: all ease 0.5s;
+
+}
+
+#car2 h1{
+    font-size: 30px;
+    padding: 20px 20px;
+    color: black;
+    }
+    #car2 p{
+        font-size: 15px;
+        padding-bottom:  30px;
+       text-align: center;
+    }
+
+    #car3 h1{
+        font-size: 30px;
+        padding: 20px 20px;
+        color: black;
+        }
+        #car3 p{
+            font-size: 15px;
+            padding-bottom:  30px;
+           text-align: center;
+        }
+        #footer{
+            width: 100%;
+            height: 50%;
+            background-color:rgb(33, 33, 74);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            
+           gap:140px;
+           background-image: url(sea.jpeg);
+           background-position:bottom ;
+           background-size: cover;
+           
+        }
+        #icon{
+            display: flex;
+            font-size: 30px;
+        }
+        #lorm{
+            width: 30%;
+        }
+        #cube{
+            font-size:25px ;
+        }
+        #cube h3{
+            padding-top: -10px;
+            font-weight: 400;
+            font-size: 20px;
+            letter-spacing: 8px;
+            
+        }
+        #cube h1{
+            padding-top: 10px;
+        }
+        #cube p{
+            font-size: 15px;
+        }
+        #lorem p{
+            font-size: 10px;
+        }
+        img{
+            width: 100%;
+            height: 50%;
+        }
+
+
+
+
